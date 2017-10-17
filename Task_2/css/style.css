@@ -1,0 +1,53 @@
+
+body {
+	width: 100%;
+	max-width: 960px;
+	margin: auto;
+}
+figure {
+	margin: 0;
+	background-color: white;
+}
+.btn {
+	padding: 0;
+	width: 14%;
+	background-color: #8B8496;
+	color: white;
+}
+.menu_list {
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	border-radius: none;
+	box-shadow: none;
+	align-items: center;
+}
+main figure nav {
+	background-color: white;
+	display: flex;
+	justify-content: flex-end;
+	border-radius: none;
+	box-shadow: none;
+}
+h6 {
+	font-weight: bold;
+	font-size: 20px;
+}
+main figure nav a {
+	display: flex;
+	justify-content: flex-end;
+	background-color: white;
+	color: black;
+	width: 15%;
+}
+.container1_img {
+	width: 100%;
+}
+@media screen and (max-width: 480px) {
+	body, .btn, h6, h5, p {
+		font-size: 0.8em;
+	}
+	aside {
+		visibility: collapse;
+	}
+}
